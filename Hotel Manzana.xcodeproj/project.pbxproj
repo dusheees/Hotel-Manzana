@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55378B932874B87B005AD0F8 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B8D2874B87B005AD0F8 /* Screenshot03.png */; };
+		55378B942874B87B005AD0F8 /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B8E2874B87B005AD0F8 /* Screenshot04.png */; };
+		55378B952874B87B005AD0F8 /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B8F2874B87B005AD0F8 /* Screenshot05.png */; };
+		55378B962874B87B005AD0F8 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B902874B87B005AD0F8 /* Screenshot01.png */; };
+		55378B972874B87B005AD0F8 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B912874B87B005AD0F8 /* Screenshot02.png */; };
+		55378B9C2874B92C005AD0F8 /* Screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = 55378B9B2874B92C005AD0F8 /* Screenshot06.png */; };
 		5582CED028745DE000F8B445 /* GuestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582CECF28745DE000F8B445 /* GuestsTableViewController.swift */; };
 		5582CED328745FD700F8B445 /* GuestCellManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582CED228745FD700F8B445 /* GuestCellManager.swift */; };
 		5582CED52874605E00F8B445 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582CED42874605E00F8B445 /* Guest.swift */; };
@@ -24,6 +30,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55378B8D2874B87B005AD0F8 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		55378B8E2874B87B005AD0F8 /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		55378B8F2874B87B005AD0F8 /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
+		55378B902874B87B005AD0F8 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		55378B912874B87B005AD0F8 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		55378B9B2874B92C005AD0F8 /* Screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot06.png; sourceTree = "<group>"; };
 		5582CECF28745DE000F8B445 /* GuestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsTableViewController.swift; sourceTree = "<group>"; };
 		5582CED228745FD700F8B445 /* GuestCellManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestCellManager.swift; sourceTree = "<group>"; };
 		5582CED42874605E00F8B445 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
@@ -53,6 +65,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55378B8C2874B87B005AD0F8 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				55378B902874B87B005AD0F8 /* Screenshot01.png */,
+				55378B912874B87B005AD0F8 /* Screenshot02.png */,
+				55378B8D2874B87B005AD0F8 /* Screenshot03.png */,
+				55378B8E2874B87B005AD0F8 /* Screenshot04.png */,
+				55378B8F2874B87B005AD0F8 /* Screenshot05.png */,
+				55378B9B2874B92C005AD0F8 /* Screenshot06.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		5582CED128745FBD00F8B445 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +123,7 @@
 		558314652874074700DCCA9E /* Hotel Manzana */ = {
 			isa = PBXGroup;
 			children = (
+				55378B8C2874B87B005AD0F8 /* Screenshots */,
 				5583148128740C2F00DCCA9E /* App */,
 				5582CED128745FBD00F8B445 /* Manager */,
 				5583147A2874082C00DCCA9E /* Models */,
@@ -214,8 +240,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				558314732874074800DCCA9E /* LaunchScreen.storyboard in Resources */,
+				55378B932874B87B005AD0F8 /* Screenshot03.png in Resources */,
+				55378B9C2874B92C005AD0F8 /* Screenshot06.png in Resources */,
 				558314702874074800DCCA9E /* Assets.xcassets in Resources */,
+				55378B942874B87B005AD0F8 /* Screenshot04.png in Resources */,
+				55378B972874B87B005AD0F8 /* Screenshot02.png in Resources */,
+				55378B962874B87B005AD0F8 /* Screenshot01.png in Resources */,
 				5583146E2874074700DCCA9E /* Main.storyboard in Resources */,
+				55378B952874B87B005AD0F8 /* Screenshot05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
